@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <title>Om dette nettstedet siden</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stilark/oblig2.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans%7CCrimson+Text" rel="stylesheet">
+</head>
+
+<body>
+  <div id="wrapper">
+    <nav>
+    </nav>
+    <header>
+      <ul id="navbar">
+        <li><a href="index.html"><i class="fa fa-home"></i> Forsiden</a></li>
+        <li><a href="#"><i class="fa fa-file-text"></i> Artikler</a></li>
+        <li><a href="omsiden.html"><i class="fa fa-info-circle"></i> Om dette nettstedet</a></li>
+        <li><a href="inspirasjon.html"><i class="fa fa-heart"></i> Inspirasjon</a></li>
+      </ul>
+      <img src="bilder/header.jpg" alt="headerbilde med teksten:
+        oblig 2 webutvikling"/>
+    </header>
+    <main>
+      <article id="innhold">
+        <h1>Om dette nettstedet</h1>
+        <p>Planen var å lage en side med minimalistisk layout, uten
+          unødvendige synlige bokser, streker eller annet rot. Jeg brukte
+          <em>flexbox</em> og prosenter til å posisjonere elementene, fordi jeg fikk
+          litt dårlig tid og hadde ikke tid til å lære meg <em>grid</em>. Målet var å
+          bruke litt ekstra tid til å få til ordentlige, universelle løsninger
+          isteden for å bruke stygge hacks og store mengder kode.
+        </p>
+        <p>Jeg har ikke brukt <em>flexbox</em> før og jeg ble overrasket over hvor enkelt
+          og pent det gikk an å plassere elementer uten å bruke <em>float</em> og pixler.
+          Siden <em>float</em> har det med å leve sitt eget liv fikk jeg mye bedre kontroll
+          ved bruk av <em>flexbox</em> og <em>wrap</em>.
+        </p>
+        <img src="bilder/forside.png" alt="wireframe-skisse av forsiden til nettstedet"/>
+        <p>På forsiden er forhåndsvisningen av artiklene hovedinnholdet og er
+          plassert øverst som et rutenett i midtdelen av siden, fordi det er
+          dette som er den viktigste informasjonen og skal være lett å få tilgang
+          til. Videre nedover midtdelen finner man to Google-kalendere, en for
+          timeplan og en agenda som viser viktige frister. Dette er ikke
+          hovedinnholdet til denne siden, så jeg regnet dem som <em>
+          functions</em> og de er derfor plassert lengre ned. Listen over linker
+          er plassert som en <em>aside</em> slik at de er lett tilgjengelige, men
+          fortsatt ikke tar oppmerksomheten vekk fra hovedinnholdet.
+        </p>
+        <img src="bilder/artikkel.png" alt="wireframe-skisse av forsiden til nettstedet"/>
+        <p>På artikkelsiden har jeg artikkelteksten som hovedinnhold og en <em>
+          aside</em> med liste over flere artikler slik at det skal være lett å
+          navigere seg til resten av det viktige innholdet. Endringer som er gjort
+          underveis er å bytte plass på elementene for frister og linker på forsiden
+          fordi Google-kalenderne så bedre ut når de sto på linje, jeg byttet også
+          ut frister-elementet med et for flere artikler på artikkelsiden fordi
+          det var mer relevant og brukbart for siden.
+        </p>
+      </article>
+
+      <aside id="sideinfo">
+        <h2>Flere artikler</h2>
+        <ul>
+          <li><a href="inspirasjon.html"><i class="fa fa-angle-double-right"></i>
+            Inspirasjon for dette nettstedet</a></li>
+          <li><a href="math.html"><i class="fa fa-angle-double-right"></i>
+            Math ML</a></li>
+          <li><a href="svg.html"><i class="fa fa-angle-double-right"></i>
+            SVG</a></li>
+          <li><a href="git.html"><i class="fa fa-angle-double-right"></i>
+            Git og GitHub</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i> Artikkel</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i> Artikkel</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i> Artikkel</a></li>
+        </ul>
+      </aside>
+
+    </main>
+    <footer>
+      <p>Klikk <a href="omsiden.html">her</a> for å lese om dette nettstedet.
+        Hodor, hodor... Hodor hodor hodor... Hodor hodor hodor -
+        hodor hodor! Hodor, hodor. Hodor. Hodor, hodor; hodor hodor,
+        hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor... Hodor
+        hodor hodor HODOR hodor, hodor hodor...Hodor, hodor... Hodor hodor
+        hodor... Hodor hodor hodor -
+        hodor hodor! Hodor, hodor. Hodor. Hodor, hodor; Hodor, hodor... Hodor
+        hodor hodor HODOR hodor, hodor hodor...</p>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

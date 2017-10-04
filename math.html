@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <title>Math ML</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stilark/oblig2.css">
+  <link rel="stylesheet" type="text/css"
+    href="font-awesome-4.7.0/css/font-awesome.css" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans%7CCrimson+Text"
+    rel="stylesheet">
+
+  <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <nav>
+    </nav>
+    <header>
+      <ul id="navbar">
+        <li><a href="index.html"><i class="fa fa-home"></i> Forsiden</a></li>
+        <li><a href="#"><i class="fa fa-file-text"></i> Artikler</a></li>
+        <li><a href="omsiden.html"><i class="fa fa-info-circle"></i> Om dette nettstedet</a></li>
+        <li><a href="inspirasjon.html"><i class="fa fa-heart"></i> Inspirasjon</a></li>
+      </ul>
+      <img src="bilder/header.jpg" alt="headerbilde med teksten:
+        oblig 2 webutvikling"/>
+    </header>
+    <main>
+      <article id="innhold">
+        <h1>Math ML</h1>
+        <p>Math ML er et <em>XML</em>, et <em>eXtensible Markup Language</em>
+          og er ganske likt HTML, som også er et <em>Markup Language</em> men
+          Math ML brukes kun til å formulere matematisk og vitenskapelig innhold.
+          Math ML består av <em>presentation</em> og <em>content</em>,
+          <em>presentation</em> bestemmer hvordan formelen skal se ut og
+          <em>content</em> fokuserer
+          på å få formelen til å kunne tolkes på en tydelig måte av brukeren.
+        </p><br/>
+        <h3>Hvorfor er Math ML nyttig?</h3>
+        <p>Når vi skal formulere komplisert matematikk og kun har bokstavene,
+          tallene og tegnene vi bruker til daglig til rådighet kan det bli
+          vanskelig å fram innholdet på en god måte. Med Math ML kan vi bruke
+          kode til å vise fram innholdet slik det er meningen at det skal vises.
+          Math ML er også enklere for brukere med synshemninger å lese,
+           siden <em>content</em> gjør formelen lett å tolke for en skjermleser.
+         </p><br/>
+
+         <p>Formelen i dette eksempelet er ganske enkel og hadde gått an å
+         skrive i vanlig HTML.</p>
+         <div class="matte">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+              <mn>2</mn>
+                <mfenced>
+                  <mrow>
+                    <mn>20</mn>
+                    <mo>+</mo>
+                    <msup>
+                      <mi>i</mi>
+                      <mn>2</mn>
+                    </msup>
+                  </mrow>
+                </mfenced>
+                <mo>=</mo>
+                <mi>x</mi>
+                <mo>-</mo>
+                <mn>3</mn>
+            </mrow>
+          </math>
+        </div>
+
+
+        <p>Når vi kommer til litt mer komplisert matte kan det være greit å
+        ha Math ML. Brøker er vanskelig å vise i vanlig tekst, det samme med
+        kvadratrot.</p>
+        <div class="matte">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+              <mfrac>
+                <mrow>
+                  <msqrt>
+                    <mn>4</mn>
+                  </msqrt>
+                </mrow>
+                <mrow>
+                  <mi>x</mi>
+                  <mo>+</mo>
+                  <mn>5</mn>
+                </mrow>
+              </mfrac>
+            </mrow>
+          </math>
+        </div>
+
+        <p>Binomialkoeffisienter går også lett an å skrive i Math ML, men hadde
+        vært vanskelig, kanskje umulig i HTML.</p>
+        <div class="matte">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mfenced>
+              <mfrac linethickness="0">
+  	             <mn>6</mn>
+  	              <mn>4</mn>
+                </mfrac>
+              </mfenced>
+            </math>
+        </div>
+      </article>
+
+      <aside id="sideinfo">
+        <h2>Flere artikler</h2>
+        <ul>
+          <li><a href="omsiden.html"><i class="fa fa-angle-double-right"></i>
+            Informasjon om dette nettstedet
+          </a></li>
+          <li><a href="inspirasjon.html"><i class="fa fa-angle-double-right"></i>
+            Inspirasjon til dette nettstedet</a></li>
+          <li><a href="svg.html"><i class="fa fa-angle-double-right"></i>
+            SVG</a></li>
+          <li><a href="git.html"><i class="fa fa-angle-double-right"></i>
+            Git og GitHub</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i> Artikkel</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i> Artikkel</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i> Artikkel</a></li>
+        </ul>
+      </aside>
+
+    </main>
+    <footer>
+      <p>Klikk <a href="omsiden.html">her</a> for å lese om dette nettstedet.
+        Hodor, hodor... Hodor hodor hodor... Hodor hodor hodor -
+        hodor hodor! Hodor, hodor. Hodor. Hodor, hodor; hodor hodor,
+        hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor... Hodor
+        hodor hodor HODOR hodor, hodor hodor...Hodor, hodor... Hodor hodor
+        hodor... Hodor hodor hodor -
+        hodor hodor! Hodor, hodor. Hodor. Hodor, hodor; Hodor, hodor... Hodor
+        hodor hodor HODOR hodor, hodor hodor...</p>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>
